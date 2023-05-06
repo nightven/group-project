@@ -1,4 +1,25 @@
-/* Reset styles */
+:root {
+  --green-theme: #28a745;
+  --bg-main: #ffffff;
+  --bg-blue: #0284d0;
+
+  --text-color-main: #ffffff;
+  --text-color-light-theme: #333333;
+  --text-color-hero: #e9e9e9;
+
+  --column-gap: 20px;
+  --row-gap: 24px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+
+  background-color: var(--bg-main);
+  color: var(--text-color-light-theme);
+}
+
 h1,
 h2,
 h3,
@@ -9,27 +30,42 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  /* outline: 2px solid tomato; */
+
+  width: 1360px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 28px;
+  padding-right: 28px;
+  outline: 1px solid red;
 }
