@@ -1,0 +1,12 @@
+.business-section {
+      color: var(--text-color-light-theme);
+  }
+
+  .business-list {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 8px;
+      row-gap: 7px;
+      flex-basis: calc((100% - 3 * 8px) / 4);
+      margin-top: 40px;
+  }
