@@ -1,65 +1,114 @@
-/**
-  |============================
-  | Hero Section
-  |============================
-*/
-.hero-main {
-    padding-top: 208px;
-    padding-bottom: 284px;
-
-    font-size: 22px;
-    line-height: 1.67;
-    text-align: center;
-
-    background-color: #333333;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)),
-        url(../images/hero/rectangle.jpg);
-    color: var(--text-color-hero);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    border-radius: 0px;
+@media screen and (max-width:767px) {
+    
+    .hero-main{
+     padding-top: 142px;
+     padding-bottom: 96px;
+   text-align: center;
+     height: 533px;
+   background-color: #333333;
+   background-image:
+     url(../images/hero/bg-mobile.jpg);
+   color: var(--text-color-hero);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ 
+   border-radius: 0px;
+    }
+    .hero-title{
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-size: 55px;
+    }
 }
-
 .hero-title {
-    margin-bottom: 25px;
-
+  
     font-family: inherit;
     font-style: normal;
     font-weight: 300;
-    font-size: 55px;
     line-height: 1.2;
     text-align: center;
-}
-
-.hero-subtitle {
+  }
+  .hero-subtitle {
     margin-bottom: 29px;
-
+  
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 1.67;
     text-align: center;
-}
-
-.hero-button {
+  }
+  
+  .hero-button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     align-items: center;
     gap: 5px;
-
+    
     width: 165px;
     height: 48px;
-
+  
     font-family: inherit;
     text-align: center;
     color: var(--bg-main);
     background-color: var(--green-theme);
     border-radius: 5px;
+  }
+
+  @media screen and (min-width:768px) {
+  
+    .logo{
+        font-size: 35px;
+        line-height:1.21;
+    }
+    .nav-list{
+        gap: 19px;
+    }
+
+    .hero-main{
+        padding-top: 142px;
+      text-align: center;
+        height: 1024px;
+      background-color: #333333;
+      background-image:
+        url(../images/hero/bg-tablet.jpg);
+      color: var(--text-color-hero);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+      border-radius: 0px;
+       }
+       
+    .hero-title{
+        margin-top: 351px;
+        margin-bottom: 25px;
+        font-size: 55px;
+    }
+  }
+  @media screen and (min-width: 1360px) {
+
+    .hero-main{
+      padding-top: 142px;
+    text-align: center;
+      height: 768px;
+    background-color: #333333;
+    background-image:
+      url(../images/hero/rectangle.jpg);
+    color: var(--text-color-hero);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    border-radius: 0px;
+     }
+  
+     .hero-title{
+      margin-top: 209px;
+  }
 }

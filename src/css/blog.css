@@ -1,0 +1,41 @@
+@media screen and (max-width:767px) {
+    .section-blog{
+      flex-direction: column-reverse;
+    }
+    }
+
+    .section-blog {
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .background {
+        background: var(--bg-blue);
+        border-radius: 0px;
+        color: var(--text-color-main);
+        padding: 80px 56px 80px 28px;
+      }
+      .style-font {
+        font-size: 20px;
+        line-height: 1.65;
+        margin-bottom: 8px;
+      }
+      .style {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 1.26;
+        margin-bottom: 24px;
+      }
+      .blog-text {
+        margin-bottom: 24px;
+      }
+      .button-style {
+        line-height: 1.87;
+        width: 196px;
+        height: 50px;
+        color: var(--bg-main);
+        background: var(--bg-blue);
+        border-radius: 5px;
+        border: 1px solid var(--bg-main);
+        cursor: pointer;
+      }

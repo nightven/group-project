@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--text-color-light-theme);
+  }
+  .footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 20px;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .footer-text {
+    font-size: 16px;
+    color: var(--bg-main);
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+  }
