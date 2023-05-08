@@ -1,0 +1,38 @@
+<section class="request">
+    <!-- section requst -->
+    <div class="container">
+      <img
+        src="./images/request/rectangle.jpg"
+        alt="the man at the table looks at the computer"
+        width="50%"
+      />
+      <div class="form-wrapper">
+        <h2 class="form-wrapper__title">Request Callback</h2>
+        <form class="request-form">
+          <label class="form-label">
+            <input
+              class="form-label__input"
+              type="text"
+              name="user_name"
+              placeholder="Enter your name"
+              minlength="3"
+            />
+          </label>
+          <label class="form-label">
+            <input
+              class="form-label__input"
+              type="email"
+              name="user_email"
+              placeholder="Enter email*"
+              minlength="8"
+              pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"
+              required
+            />
+          </label>
+          <button class="button request-form__btn" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
