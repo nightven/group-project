@@ -17,7 +17,7 @@
   |============================
 */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -41,11 +41,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-.link{
+.link {
   text-decoration: none;
   display: block;
 }
-.list{
+.list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -93,37 +93,34 @@ img {
   margin-right: auto;
   padding-left: 28px;
   padding-right: 28px;
-  outline: 1px solid rebeccapurple;
 }
 
-@media screen and (max-width:767px) {
-  .container{
-      max-width: 428px;
-      padding:0 22px  ;
-  } 
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 428px;
+    padding: 0 22px;
+  }
   .container-header {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 21px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px 0 0 0;
   }
 }
 
-@media screen and (min-width:768px) {
-  .container{
-      max-width: 768px;
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
   }
-  .container-header{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+  .container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
 @media screen and (min-width: 1360px) {
-  
   .container {
     max-width: 1360px;
-   
-}
+  }
 }
