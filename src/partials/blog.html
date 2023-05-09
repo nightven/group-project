@@ -11,12 +11,15 @@
       <button class="button-style">Read Our Blog</button>
     </div>
     <div>
-      <img
-        class=""
-        src="./images/blog post one/blog post.jpg"
+      <picture>
+        <source media="(min-width: 1360px)" srcset="../images/blog/blog-desk@1x.jpg">
+        <source media="(min-width: 768px)" srcset="../images/blog/blog-tab@1x.jpg ">
+        <img
+        class="blog-img"
+        src="../images/blog/blog-mob@1x.jpg"
         alt="diary, notebooks, tablet and cup of coffee on the table"
-        width="670"
-        height="460"
+        height="100%"
       />
+      </picture>
     </div>
   </section>
