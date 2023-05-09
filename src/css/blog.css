@@ -15,6 +15,11 @@
         color: var(--text-color-main);
         padding: 80px 56px 80px 28px;
       }
+      @media only screen and (min-width: 768px) {
+         .background{
+          width: 50%;
+        }
+      }
       .style-font {
         font-size: 20px;
         line-height: 1.65;
@@ -39,3 +44,7 @@
         border: 1px solid var(--bg-main);
         cursor: pointer;
       }
+      .blog-img{
+        height: 100%;
+        width: 100%;
+         }
