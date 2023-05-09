@@ -3,7 +3,7 @@
     .business-section{
       padding-top: 50px;
       padding-bottom: 46px;
-        text-align: center;
+      text-align: center;
     }
     .business-list{
       justify-content: center;;
@@ -14,6 +14,7 @@
   }
   .business-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 8px;
     row-gap: 7px;
@@ -28,4 +29,8 @@
         padding-bottom: 30px;
 max-width: 50%;
     }
+      .business-section {
+        padding-top: 46px;
+        padding-bottom: 46px;
+      }
   }
