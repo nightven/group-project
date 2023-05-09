@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/group-project/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/group-project/assets/index-fc9bb8c7.css">
+    <link rel="stylesheet" href="/group-project/assets/index-6b7cf645.css">
   </head>
   <body>
     <header class="section-header">
@@ -413,43 +413,55 @@
     </div>
   </section>
       <section class="request">
-    <!-- section requst -->
-    <div class="container">
-      <img
-        src="/group-project/assets/rectangle-06af099b.jpg"
-        alt="the man at the table looks at the computer"
-        width="50%"
-      />
-      <div class="form-wrapper">
-        <h2 class="form-wrapper__title">Request Callback</h2>
-        <form class="request-form">
-          <label class="form-label">
-            <input
-              class="form-label__input"
-              type="text"
-              name="user_name"
-              placeholder="Enter your name"
-              minlength="3"
-            />
-          </label>
-          <label class="form-label">
-            <input
-              class="form-label__input"
-              type="email"
-              name="user_email"
-              placeholder="Enter email*"
-              minlength="8"
-              pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"
-              required
-            />
-          </label>
-          <button class="button request-form__btn" type="submit">
-            Send
-          </button>
-        </form>
-      </div>
+  <!-- section requst -->
+  <div class="container">
+    <div class="wraper-img">
+      <picture>
+        <source
+          media="(min-width: 1360px)"
+          srcset="/group-project/assets/callback-lg@1x-06af099b.jpg "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/group-project/assets/callback-md@1x-f643eb6f.jpg "
+        />
+        <img
+          class="blog-img"
+          src="/group-project/assets/callback-sm@1x-76da7610.jpg"
+          alt="diary, notebooks, tablet and cup of coffee on the table"
+          height="100%"
+        />
+      </picture>
     </div>
-  </section>
+    <div class="form-wrapper">
+      <h2 class="form-wrapper__title">Request Callback</h2>
+      <form class="request-form">
+        <label class="form-label">
+          <input
+            class="form-label__input"
+            type="text"
+            name="user_name"
+            placeholder="Enter your name"
+            minlength="3"
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-label__input"
+            type="email"
+            name="user_email"
+            placeholder="Enter email*"
+            minlength="8"
+            pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"
+            required
+          />
+        </label>
+        <button class="button request-form__btn" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
     </main>
     <footer id="footer" class="footer">
     <div class="container">
