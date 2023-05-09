@@ -1,68 +1,70 @@
 .request .container {
-    background-color: var(--bg-cl-request);
-  }
-  /* wrapper for form */
-  .form-wrapper {
-    width: 100%;
-    padding: 80px 30px;
-  
-    /* section title */
-  }
-  .form-wrapper__title {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 38px;
-    line-height: 48px;
-    /* identical to box height, or 126% */
-  
-    color: var(--text-color-light-theme);
-  }
-  /* form */
-  .request-form {
+  background-color: var(--bg-cl-request);
+}
+/* wrapper for form */
+.form-wrapper {
+  width: 100%;
+  padding: 80px 30px;
+
+  /* section title */
+}
+.form-wrapper__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 48px;
+  /* identical to box height, or 126% */
+
+  color: var(--text-color-light-theme);
+}
+/* form */
+.request-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-label {
+  width: 100%;
+  height: 40px;
+  margin-top: 40px;
+}
+.form-label__input {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 1px solid var(--text-color-hero);
+}
+.form-label__input::placeholder {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  /* identical to box height, or 156% */
+
+  color: var(--text-placeholder);
+}
+.request-form__btn {
+  width: 100%;
+  margin-top: 60px;
+
+  color: var(--bg-main);
+  background-color: var(--green-theme);
+  cursor: pointer;
+
+  transition: tramsform 400ms var(--cubic), background-color 400ms var(--cubic);
+}
+.request-form__btn:hover,
+.request-form__btn:focus {
+  transform: scale(1.03);
+
+  background-color: #1e8b37;
+}
+@media screen and (min-width: 768px) {
+  .request .container {
     display: flex;
-    flex-wrap: wrap;
   }
-  .form-label {
-    width: 100%;
-    height: 40px;
-    margin-top: 40px;
+  .form-wrapper {
+    width: 50%;
   }
-  .form-label__input {
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    border: 1px solid var(--text-color-hero);
-  }
-  .form-label__input::placeholder {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
-    /* identical to box height, or 156% */
-  
-    color: var(--text-placeholder);
-  }
-  .request-form__btn {
-    width: 100%;
-    margin-top: 60px;
-  
-    color: var(--bg-main);
-    background-color: var(--green-theme);
-    cursor: pointer;
-  
-    transition: tramsform 400ms var(--cubic), background-color 400ms var(--cubic);
-  }
-  .request-form__btn:hover,
-  .request-form__btn:focus {
-    transform: scale(1.03);
-  
-    background-color: #1e8b37;
-  }
-  @media screen and (min-width:768px) {
-    .request .container{
-        display: flex;
-    }
-    
 }
